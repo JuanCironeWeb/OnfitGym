@@ -82,7 +82,7 @@ main{
 #Actividades{ 
     display: flex; 
     width: 100%;
-    height: 50vh;
+    /* height: 50vh; */
     color: whitesmoke;
     background-color: rgb(14, 13, 13);
 }
@@ -93,7 +93,7 @@ main{
 }
 .actividad{ 
     width: 50vw;
-    height: 50vh;
+    /* height: 50vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,7 +265,7 @@ hr{
 
 #SeccionPreguntas{ 
     width: 100%;
-    height: 70vh;
+    /* height: 70vh; */
     display: flex;
 
 }
@@ -302,8 +302,7 @@ hr{
 }
 .Pregunta{ 
     color: whitesmoke;
-    font-weight: 500;
-    font-size: 20px;
+        font-size: 20px;
     line-height: 20px;
     display: flex;
     justify-content: space-between;
@@ -463,6 +462,9 @@ footer{
         background: url(FondoPregs.png) no-repeat center center;
         background-size: cover;
     }
+    .Pregunta{ 
+        font-weight: 500;
+    }
 }
 
 @media screen and (max-width:1750px){
@@ -473,7 +475,7 @@ footer{
 
 @media screen and (min-width:993px) and (max-width:1530px) {
     html{ 
-        font-size: 15px;
+        font-size: 16px;
     }
     *{ 
         box-sizing: border-box;
@@ -508,9 +510,6 @@ footer{
 }
 
 @media screen and (min-width:768px) and (max-width:992px){
-    html{ 
-        font-size: 13px;
-    }
     #SeccionVideo{ 
         height: 70vh;
     } 
@@ -530,7 +529,6 @@ footer{
     .card{ 
         width: 35vw;
         margin: 5%;
-        height: 55vh;
     }
     .CardButton button{ 
         width: 60%;
@@ -564,9 +562,6 @@ footer{
 }
 
 @media screen and (max-width:992px) {
-    html{ 
-        font-size: 12px;
-    }
 
     nav:target #Navegador{ 
         display: flex;
@@ -580,6 +575,11 @@ footer{
         margin-top: 0.6rem;
         margin-bottom: 0.6rem;
     }
+    #FondoNav{ 
+    background: url(banner-2.webp) no-repeat center center;
+    background-size: cover;
+
+}
     h1{ 
         width: 40%;
     }
@@ -606,7 +606,7 @@ footer{
     #Actividades{ 
         display: flex;
         justify-content: center;
-        height: 55vh;
+        /* height: 55vh; */
     }
     #Actividades img{ 
         display: none;
@@ -649,15 +649,12 @@ footer{
     .ContenedorPregunta{ 
         width: 90%;
     }
-    .Pregunta{ 
-        font-weight: 400;
-    }
     .Respuesta{ 
         font-weight: 300;
     }
     #PreguntasFrecuentesTitulo{ 
         order: 1;
-        font-size: 2.5rem;
+        font-size: 2rem;
         width: 100%;
         justify-content: center;
     }
@@ -681,9 +678,6 @@ footer{
     }
     nav{ 
         justify-content: space-around;
-    }
-    h1{ 
-        width: 25%;
     }
     #Navegador{ 
         display: none;
@@ -726,6 +720,11 @@ footer{
     html{ 
         font-size: 10px;
     }
+    #FondoNav{ 
+    background: url(banner-celu.jpeg) no-repeat center center;
+    background-size: cover;
+
+}
     nav:target #Navegador{ 
         top: 13rem;
     }
@@ -758,9 +757,9 @@ footer{
     }
 }
 @media screen and (min-width:850px) and (max-width: 991px) {
-    #SeccionVideo{ 
+    /* #SeccionVideo{ 
         height: 80vh;
-    }
+    } */
     
     .card{ 
         width: 40vw;
