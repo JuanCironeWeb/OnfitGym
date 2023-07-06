@@ -1,0 +1,773 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap') ; 
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+ul{ 
+    list-style: none;
+}
+h3{ 
+    font-family: 'Roboto' ;
+    font-size: 2.5rem;
+    
+}
+p{ 
+    font-family: 'roboto' ;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+header{ 
+    width: 100%;
+}
+h1{ 
+    width: 15%;
+    background-image: url(logo-onfit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    line-height:-1px ;
+    height: 20vh;
+}
+nav{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+}
+
+#FondoNav{ 
+    width: 100%;
+    background: url(Banner1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+ #Navegador{ 
+    list-style: none;
+    /* display: flex; */
+    justify-content: space-evenly;
+    width: 80%;
+}
+#Navegador li a{ 
+    color:#365872;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+#Navegador li a:hover{ 
+    text-decoration: none;
+    transform: scale(1.2);
+    
+}
+main{ 
+    display: flex; 
+    flex-direction: column;
+}
+
+#Actividades{ 
+    display: flex; 
+    width: 100%;
+    height: 50vh;
+    color: whitesmoke;
+    background-color: rgb(14, 13, 13);
+}
+#Actividades img{ 
+    width: 50vw;
+    height: 50vh;
+    
+}
+.actividad{ 
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E3DAC9;
+    justify-content: center;
+    color: rgb(14, 13, 13);
+}
+.actividad div{ 
+    margin: 2.5rem;
+}
+#Actividades h3{ 
+        
+        font-size: 2rem;
+}
+/* video */
+
+#SeccionVideo{ 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(14, 13, 13);
+    align-items: center;
+
+}
+
+#ContenedorVideo{ 
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 2rem;
+}
+video{ 
+    width: 100%;
+    
+}
+#TextoVideo{ 
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+#TextoVideo h2{ 
+    font-size: 6rem;
+    margin: 2rem;
+    color: #365872;
+}
+#TextoVideo p{ 
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+/* Planes */
+
+#ContenedorPlanes{ 
+    width: 100%;
+    /* height: 80vh; */
+    background: url(fondoPlan.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: rgb(14, 13, 13);
+}
+#Planes{ 
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{ 
+    width: 20vw;
+    background-color: #365872;
+    height: 50vh;
+    margin: 2%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+.card:hover{ 
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 2px rgba(227,218,201,0.3);
+}
+.CardTitle{ 
+    height: 15%;
+    width: 100%;
+    background-color: #E3DAC9;
+    border-top-left-radius: 1rem;
+    border-top-right-radius:1rem ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.CardInfo{ 
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+    align-items: center;
+    text-align: center;
+}
+.Precio{ 
+    font-size: 2rem;
+    font-weight: 600;
+}
+hr{ 
+    border: 2px solid white;
+    width: 100%;
+}
+.Precio span{ 
+    font-size: 1rem;
+}
+.Sedes{ 
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+.CardInfo div{ 
+    text-align: left;
+    height: 60%;
+
+}
+.CardInfo div ul{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.CardButton{ 
+    width: 100%;
+    height: 15%;
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+}
+.CardButton button{
+    width: 40%;
+    height: 60%;
+    background: transparent;
+    border: 4px solid #E3DAC9;
+    border-radius: 0.8rem;
+    color: #E3DAC9;
+    font-weight: 800;
+}
+
+.CardButton button:hover{ 
+    background-color: whitesmoke;
+    border: 4px solid whitesmoke;
+    transform: scale(1.2);
+    color: #365872;
+}
+
+
+/* Preguntas frecuentas */
+
+#SeccionPreguntas{ 
+    width: 100%;
+    height: 70vh;
+    display: flex;
+
+}
+#ContenedorPreguntas{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.ContenedorPregunta{ 
+    background-color: #365872;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.3s ease all;
+    cursor: pointer;
+    width: 60%;
+    margin: 4px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ContenedorPregunta img{ 
+    width: 30px;
+    height:30px ;
+}
+.ContenedorPregunta:hover{ 
+    box-shadow: 0px 0px 5px 2px rgba(218, 216, 214, 0.403);
+}
+.ContenedorPregunta.activa{ 
+    border: 2px solid white;
+}
+.Pregunta{ 
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Respuesta{ 
+    color: whitesmoke;
+    line-height: 30px;
+    font-weight: 500;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s ease all;
+    width: 100%;
+}
+.ContenedorPregunta.activa .Respuesta{ 
+    opacity: 1;
+    margin-top: 20px;
+}
+#PreguntasFrecuentesTitulo{ 
+    width: 40vw;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 1207px) {
+    #PreguntasFrecuentesTitulo{ 
+        font-size: 3.2rem;
+    }
+}
+
+/* FORMULARIO */
+#formulario-contenedor{ 
+    background-color: #E3DAC9;   
+    display: flex;
+    justify-content: center;    
+}
+form{ 
+    display: flex; 
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 60%;
+    flex-wrap: wrap;
+    padding: 2%;
+    color: whitesmoke;
+
+}
+.form-group1{ 
+width: 49%;
+padding: 2%;
+}
+.form-group2{ 
+    width: 49%;
+    padding: 2%;
+    }
+.form-group3{ 
+        width: 49%;
+        padding: 2%;
+        }
+.form-group4{ 
+            width: 49%;
+            padding: 2%;
+            }
+
+.mensaje1{ 
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 1%;
+}
+#Mensaje{ 
+    height: 15vh;
+}
+.form-input{
+    border: 4px solid #365872;
+    border-radius: 8px;
+    width: 100%;
+    height: 6vh;
+    padding: 1%;
+    background: transparent;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 5px 2px #365872;
+}
+.Caja-Boton{ 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+#Boton{ 
+    width: 40%;
+    height: 3rem;
+    border: 5px solid #365872;
+    background: transparent;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #365872;
+}
+#Boton:hover{ 
+    background-color: #365872;
+    color: whitesmoke;
+}
+
+/* FOOTER */
+
+footer{ 
+    height: 40vh;
+    width: 100%;
+    background-color: #365872;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: whitesmoke;
+}
+
+#ContenedorImgFooter{ 
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#ContenedorImgFooter img{ 
+    width: 70px;
+    height: 70px;
+}
+
+#ContenedorListaFooter{ 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+#ContenedorListaFooter ul{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+@media screen and (min-width:993px) and (max-width:1290px) {
+    h1{ 
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 993px){ 
+    #Navegador{ 
+        display: flex;
+    }
+    #hamburguesa{ 
+        display: none;
+    }
+    #SeccionPreguntas{ 
+        background: url(FondoPregs.png) no-repeat center center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:1750px){
+    #ContenedorPreguntas{ 
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (min-width:993px) and (max-width:1530px) {
+    html{ 
+        font-size: 15px;
+    }
+    *{ 
+        box-sizing: border-box;
+    }
+
+    #TextoVideo{ 
+        width: 100vw;
+    }
+    #TextoVideo h2{ 
+        font-size: 4.7rem;
+    }
+     #SeccionVideo{ 
+        height: 95vh;
+    } 
+    #ContenedorVideo{ 
+        width: 65vw;
+    }
+    .actividad div{ 
+        margin: 1.8rem;
+    }
+    .card{ 
+        width: 35vw;
+        margin: 5%;
+        height: 60vh;
+    }
+    .CardButton button{ 
+        width: 60%;
+    }
+    form{ 
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    html{ 
+        font-size: 13px;
+    }
+    #SeccionVideo{ 
+        height: 70vh;
+    } 
+    #TextoVideo{ 
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #TextoVideo h2{ 
+        font-size: 3.3rem;
+    }
+    #ContenedorVideo{ 
+        width: 80vw;
+    }
+    #ContenedorVideo video{ 
+        width: 100%;
+    }
+    .card{ 
+        width: 35vw;
+        margin: 5%;
+        height: 55vh;
+    }
+    .CardButton button{ 
+        width: 60%;
+    }
+
+    #SeccionPreguntas{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(14, 13, 13);
+    } 
+    #ContenedorPreguntas{ 
+        order: 2;
+        width: 100%;
+    }
+    #PreguntasFrecuentesTitulo{ 
+        order: 1;
+        font-size: 2.5rem;
+        width: 100%;
+        justify-content: center;
+    }
+    form{ 
+        width: 80%;
+    }
+    #ContenedorImgFooter img{ 
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    html{ 
+        font-size: 12px;
+    }
+
+    nav:target #Navegador{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 11rem;
+    }
+    #Navegador li{ 
+        width: 100%;
+        text-align: center;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+    }
+    h1{ 
+        width: 40%;
+    }
+    #SeccionVideo{ 
+        height: 55vh;
+    } 
+    #TextoVideo{ 
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    #TextoVideo h2{ 
+        font-size: 45px;
+        margin:0;  
+    }
+    #ContenedorVideo{ 
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        background: transparent;
+    }
+    #ContenedorVideo video{ 
+        width: 90%;
+    }
+    #Actividades{ 
+        display: flex;
+        justify-content: center;
+        height: 55vh;
+    }
+    #Actividades img{ 
+        display: none;
+    }
+    .actividad{ 
+        width: 90%;
+        background: transparent;
+    }
+    .actividad div{ 
+        background-color: #E3DAC9;
+        border: 1px solid #E3DAC9;
+        border-radius: 1rem;
+        padding: 2rem;
+    }
+    .actividad div h3{ 
+        padding-bottom: 0.5rem;
+    }
+    .card{ 
+        width: 70vw;
+        margin: 5%;
+    }
+    .CardButton button{ 
+        width: 60%;
+    }
+    #ContenedorPlanes{ 
+        background: transparent;
+        background-color: rgb(14, 13, 13);
+    }
+    #SeccionPreguntas{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(14, 13, 13);
+    } 
+    #ContenedorPreguntas{ 
+        order: 2;
+        width: 100%;
+    }
+    .ContenedorPregunta{ 
+        width: 90%;
+    }
+    .Pregunta{ 
+        font-weight: 400;
+    }
+    .Respuesta{ 
+        font-weight: 300;
+    }
+    #PreguntasFrecuentesTitulo{ 
+        order: 1;
+        font-size: 2.5rem;
+        width: 100%;
+        justify-content: center;
+    }
+    form{ 
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-group1, .form-group2, .form-group3, .form-group4, .mensaje1{ 
+        width: 100%;
+    }
+    .Caja-Boton{ 
+        width: 60%;
+    }
+    #Boton{ 
+        width: 100%;
+    }
+    #ContenedorImgFooter img{ 
+        width: 30px;
+        height: 30px;
+    }
+    nav{ 
+        justify-content: space-around;
+    }
+    h1{ 
+        width: 25%;
+    }
+    #Navegador{ 
+        display: none;
+        width: 100%;
+        background-color:#E3DAC9;
+        position: absolute;
+        top: 9rem;
+        left: 0;
+    }
+    #hamburguesa li{ 
+        list-style: none;
+        overflow: hidden;
+        margin-top: 1rem;
+        width: 4rem;
+        text-indent: -500px;
+    }
+    #hamburguesa li a{ 
+        background: url(menu.png) no-repeat center center;
+        background-size: cover;
+        display: block;
+        width: 4rem;
+        height: 4rem;
+    }
+    #hamburguesa li:last-child{ 
+        display: none;
+    }
+
+    nav:target #Navegador{ 
+        display: flex;
+    }
+    nav:target #hamburguesa li:first-child{ 
+        display: none; 
+    }
+    nav:target #hamburguesa li:last-child{ 
+        
+        display: flex;  
+    }
+}
+@media screen and (max-width:576px) {
+    html{ 
+        font-size: 10px;
+    }
+    nav:target #Navegador{ 
+        top: 13rem;
+    }
+    h1{ 
+        width: 70%;
+    }
+    #SeccionVideo{ 
+        height: 45vh;
+    } 
+    #TextoVideo h2 {
+        font-size: 25px;
+        margin: 0;
+    }
+    #PreguntasFrecuentesTitulo{ 
+        font-size: 2rem;
+        
+    }
+}
+@media screen and (min-width:700px) and (max-width: 849px) {
+    #SeccionVideo{ 
+        height: 70vh;
+    }
+
+    #Planes{ 
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{ 
+        width: 50vw;
+    }
+}
+@media screen and (min-width:850px) and (max-width: 991px) {
+    #SeccionVideo{ 
+        height: 80vh;
+    }
+    
+    .card{ 
+        width: 40vw;
+    }
+}
+@media screen and (min-width: 1600px) {
+    html{ 
+        font-size: 18px;
+    }
+}
